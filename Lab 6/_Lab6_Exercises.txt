@@ -1,0 +1,56 @@
+FIRST EXERCISE: LEVEL SUM
+
+Given a Binary Tree, compute the sum of all the nodes present in a level for each level of the tree
+
+NOTE: you can use a Stack or a Queue, but can be solved even without
+
+E.g.
+
+          20             Sum of level 0 = 20
+        /    \
+      15      40         Sum of level 1 = 55
+    /    \      \
+  10      30     50      Sum of level 2 = 90
+    \           /
+     22        3         Sum of level 3 = 25
+
+
+
+
+
+
+
+SECOND EXERCISE: VERIFY COMPLETE
+
+Verify if a binary tree is complete or not
+
+NOTE: you can use a Stack or a Queue, but can be solved even without
+
+E.g.:
+
+               A              TRUE
+            /     \
+          B        C
+        /   \     /  \
+       D    E    F    G
+     /  \
+    H    I
+
+               A              FALSE
+            /     \
+          B        C
+        /   \       \
+       D     E       G
+
+
+               A              FALSE
+            /     \
+          B        C
+        /   \
+       D    E
+     /  \
+    H    I
+
+
+
+

@@ -1,0 +1,40 @@
+FIRST EXERCISE: FIND THE NODE WITH K'tH LARGEST KEY IN A BST
+
+Given a BST and a number k, find the node with the  k'th largest key in the BST and return its content (key, value)
+
+E.g. With the following tree if k=1 the node is 22, since it is the largest key
+                             if k=2 the node is 12, since it is the second largest key
+
+      10
+     /  \
+    8 	 12
+   / \     \
+  3   9     22
+
+IMPORTANT: yon cannot solve the problem by storing all the nodes inside a list
+NOTE: you can use a stack or a queue, but it is not mandatory
+
+
+
+SECOND EXERCISE: VERIFY IF A BINARY TREE IS A BST
+
+Given a binary tree verify if it is a BST or not
+
+E.g.:
+               20              FALSE
+            /     \            18 < 20 in the right subtree
+          15       40          30 > 20 in the left subtree
+        /   \     /  \
+       10   30   18  50
+
+
+               20              TRUE
+            /     \
+          15       40
+        /   \     /  \
+       10   18   30  50
+
+
+NOTE: you can use a stack or a queue, but it is not mandatory
+BONUS: try to solve the problem in different ways. It can be done in O(n) time
+

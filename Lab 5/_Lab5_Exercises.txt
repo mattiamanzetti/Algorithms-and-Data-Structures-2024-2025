@@ -1,0 +1,45 @@
+FIRST EXERCISE: SUM OF CHILDREN NODES
+
+Given a Binary Tree, verify if for every node, the key value of the node is equal to the sum of the key values of its left and right children
+Leaf nodes always satisfy this property
+
+HINTS: you need to recursively check each node
+
+This tree satisfy the property
+
+	   10
+	  /  \
+	 8    2
+	/ \    \
+   3   5    2
+
+
+This tree does not satisfy the property
+
+	   10
+	  /  \
+	 8    2
+	/ \    \
+   3   3    2
+
+
+NOTE: you can use a Stack or a Queue
+
+
+
+
+SECOND EXERCISE: VERIFY SIBLINGS
+
+Given a Binary Tree and the two nodes A and B determine whether A and B are siblings or not
+
+E.g.
+              35                     A=2 and B=12 are siblings
+           /      \                  A=40 and B=7 are siblings
+         18 	   10                A=7 and B=21 are NOT siblings
+        /   \     /   \               A=18 and B=1 are NOT siblings
+       3     5   7    40
+     /  \            /   \
+    2   12         21     1
+
+
+NOTE: you can use a Stack or a Queue

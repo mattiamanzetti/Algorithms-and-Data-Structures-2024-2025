@@ -1,0 +1,13 @@
+EXERCISE: FIND THE STRONGLY CONNECTED COMPONENTS
+
+Write a program to find and print all the SCC of a given directed graph
+
+The task can be achieved implementing the Kosaraju's algorithm, studied during theoretical lectures:
+
+1) Compute DFS on graph G and push in a Stack each vertex (or, more simply, its ID) when it becomes black
+2) Compute the transposed graph GT (i.e., a graph in which the directions of the edges are reversed)
+3) Run DFS on GT but consider the vertexes in order of decreasing finishing time of step 1 (i.e. pop the vertices
+   from the stack one by one and use them in that order as starting vertex for DFS)
+4) Print the obtained SCC
+
+NOTE: the draft code contains the standard implementation of the DFS algorithm to be modified

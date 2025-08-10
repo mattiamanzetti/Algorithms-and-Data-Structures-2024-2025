@@ -1,0 +1,27 @@
+FIRST EXERCISE: FIND CLOSEST NODE
+
+Given a BST and a number N, return the node key in the BST that is closest to N,
+(i.e. the node key with the minimum absolute difference with N)
+
+E.g.
+Given the following BST and N=7 the closest node is 5, since |7-5| = 2 is the minimum difference
+
+             15
+         /       \
+       10        20
+      /  \     /   \
+    5    12   19   25
+
+NOTE: you can use a Stack or a Queue but it is not mandatory
+
+
+
+SECOND EXERCISE: IS GRAPH A TREE
+
+Verify if an undirected graph is a tree
+
+An undirected graph is a tree if the following conditions are verified:
+- There are no cycles
+- The graph is connected
+
+HINTS: We can use DFS to perform both the verifications!

@@ -1,0 +1,27 @@
+First Exercise: Reverse Words
+
+Write a program to reverse each word in a string using a Stack.
+Words must stay in the same initial position
+E.g., "Algorithm and Data Structures" will become "mhtiroglA dna ataD serutcurtS"
+
+
+
+Second Exercise: Delete the middle element of Stack
+
+Write a program that removes the middle element of a Stack
+E.g.: input [1, 2, 3, 4, 5]
+      output [1, 2, 4, 5]
+
+Try to solve it in two ways, using recursion and using iteration
+
+NOTE: you can use an auxiliary stack
+
+
+
+Third Exercise: Redundant parentheses (DIFFICULT)
+
+Write a program that checks whether a valid expression has redundant parentheses or not
+E.g.:    ( (a + b) )            # Redundant
+         ( a + (b) / c )        # Redundant
+         ( a + ( (b + c) ) )    # Redundant
+         (a + b * (c - d) )     # Not redundant

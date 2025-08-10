@@ -1,0 +1,45 @@
+First Exercise: Reverse a Queue
+
+Reverse the content of a Queue using Recursion
+You can use only one Queue, no other data structures are needed
+You cannot use any iterative loop
+
+
+
+Second Exercise: Pascal's Triangle
+
+Compute the Pascal's (or Tartaglia) Triangle using recursion
+The rows of Pascal's triangle are conventionally enumerated starting with row n=0 at the top (the 0th row).
+The triangle may be constructed in the following manner:
+Each row begins and ends with a 1. In row 0 there is only a 1. 
+Each entry of each subsequent row is computed adding together the 2 numbers directly above it
+
+        1           n = 0
+      1   1         n = 1
+    1   2   1       n = 2
+  1   3   3   1     n = 3
+1   4   6   4   1   n = 4
+...
+
+To simplify You can print the triangle like this:
+[1]
+[1, 1]
+[1, 2, 1]
+[1, 3, 3, 1]
+[1, 4, 6, 4, 1]
+...
+
+NOTE: You can use iterative loop(s) inside recursion
+
+
+
+
+Third Exercise (DIFFICULT)
+
+Reversing the content of Stack using recursion
+You can use only one Stack, no other data structures are needed
+You cannot use any iterative loop
+
+HINT: you need 2 recursive functions one to empty the stack one to fill in
+
+

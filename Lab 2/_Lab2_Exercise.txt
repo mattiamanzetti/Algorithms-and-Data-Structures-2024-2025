@@ -1,0 +1,26 @@
+
+Exercise: Simulate a Supermarket
+
+A Supermarket has a variable number of check desks specified at the beginning
+Each check desk has an ID, a queue of waiting customers, and a current customer (initialized to None)
+Each Customer has an ID and a random number of items (from 1 to max_number) to check out
+
+The check out of a Check desk works as follows:
+    IF there is a current Customer and its number of items is zero:
+        print a message with Check desk and Customer IDs (e.g., "Check desk 1 served Customer number 2")
+        if the queue is not empty dequeue the next Customer that becomes the new current Customer
+    ELSE:
+        decrease the number of items of the current Customer by 1
+
+NOTE: a check desk can have an empty queue
+
+Given a list of N Customers run the Supermarket simulation until all of them are served
+During the simulation:
+- a new customer enters in the Supermarket (i.e. is removed from the list) with probability 30% and always goes to the emptiest cash desk
+- all the check desks are continuously checked out
+HINT: create a while loop that iterates until both the list of customers and all the queues are empty,
+      at each iteration a new customer can enter, and all the check decks run their check out
+
+At the end of the simulation print the total number of customers served by each cash desk
+
+You can use as reference the example "PrintSimulation.py" seen during the Theoretical Lecture

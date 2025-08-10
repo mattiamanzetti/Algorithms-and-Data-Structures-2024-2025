@@ -1,0 +1,24 @@
+First exercise: Check even/odd
+
+Create a program with the following functions:
+    - "createRandomList", that receives in input two numbers (N, R) and returns a list of N integer numbers with random values from 0 to R
+    - "countEvenOdd", that given a list of numbers returns how many even and odd numbers contains
+    - "splitEvenOdd", that given a list of numbers returns two lists, one containing the even numbers and the other the odd numbers
+Test the program with N = 100 and R = 100
+
+NOTE: use import random and the function random.randint()
+
+
+
+
+Second exercise: Capitalize the first letter of all the words in a text
+
+Create a program with the following functions:
+    - "readTxtFile", that reads a text file and memorize all the lines in a list
+    - "capitalizeWords", that capitalizes the first letter of each word in each line and save the result in a new list
+    - "writeTxtFile", that write the capitalized text in a new text file
+Test the program using the file "loremipsum.txt" and write the result is "loremipsum_cap.txt"
+
+NOTE: Try to avoid capitalize(), other useful methods to modify strings are split(), upper(), join() 
+  
+
